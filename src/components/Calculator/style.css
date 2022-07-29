@@ -10,3 +10,10 @@
 .error-card span {
   margin-right: 1rem;
 }
+
+.caption {
+  display: block;
+  font-size: 1.2rem;
+  border-bottom: 1px solid;
+  width: fit-content;
+}

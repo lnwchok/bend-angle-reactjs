@@ -71,7 +71,7 @@ export default function Calculator() {
 
       {error.status ? <ErrorCard message={error.message} /> : ''}
       <div className="card">
-        <p>
+        <p className="caption">
           Vector-1, <InlineMath math="\vec{A}" />
         </p>
         <div className="textcenter">
@@ -102,7 +102,7 @@ export default function Calculator() {
         </div>
       </div>
       <div className="card">
-        <p>
+        <p className="caption">
           Vector-2, <InlineMath math="\vec{B}" />
         </p>
         <div className="textcenter">

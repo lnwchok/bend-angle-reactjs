@@ -17,10 +17,10 @@ export default function App() {
   }
 
   return (
-    <div className="App">
+    <>
       <Header />
       {component}
       <footer className="textcenter">😘 Made to you: Sitthichok with 💖</footer>
-    </div>
+    </>
   );
 }
