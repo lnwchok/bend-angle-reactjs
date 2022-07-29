@@ -88,7 +88,8 @@ function App() {
         </div>
       </div>
       <div className="textcenter card">
-        <button onClick={calcAngle}>👻</button>
+        <button onClick={calcAngle}>Calc 📏</button>&nbsp;
+        <button>Reset 🚿</button>
       </div>
 
       <footer className="textcenter">😘 Made to you: Sitthichok with 💖</footer>
