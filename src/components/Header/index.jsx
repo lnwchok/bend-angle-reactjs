@@ -39,7 +39,7 @@ export default function Header() {
   return (
     <header>
       <h1 className="textcenter">🔱Bend Angle</h1>
-      <ul>{locations}</ul>
+      <ul className="navbar">{locations}</ul>
     </header>
   );
 }

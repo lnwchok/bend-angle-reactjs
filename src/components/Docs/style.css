@@ -1,11 +1,13 @@
 @import 'katex/dist/katex.min.css';
 
 .markdown {
-  width: 860px;
+  width: 800px;
   padding: 0.7rem;
   margin: 0 auto;
-  background-color: khaki;
+  background-color: #eae7af;
   color: #121;
 }
 
-
+.markdown p {
+  text-indent: 1rem;
+}

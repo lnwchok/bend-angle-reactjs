@@ -1,11 +1,11 @@
-ul {
+.navbar ul {
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
   /* align-items: stretch; */
 }
 
-li {
+.navbar li {
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -13,7 +13,7 @@ li {
   align-items: center;
 }
 
-li a {
+.navbar li a {
   display: block;
   color: inherit;
   padding: 0.7rem 1.2rem;
@@ -23,6 +23,6 @@ li a {
   border-radius: 1em;
 }
 
-li a:hover {
+.navbar li a:hover {
   border-color: #535bf2;
 }
