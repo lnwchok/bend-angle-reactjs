@@ -1,15 +1,13 @@
-.navbar ul {
+header {
   display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-  /* align-items: stretch; */
+  flex-flow: column;
 }
 
 .navbar li {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
-  height: 3em;
+  justify-content: flex-start;
+  height: 1em;
   align-items: center;
 }
 
@@ -26,3 +24,9 @@
 .navbar li a:hover {
   border-color: #535bf2;
 }
+
+/* @media (min-width: 980px) {
+  .navbar li {
+    justify-content: flex-end;
+  }
+} */
